@@ -74,3 +74,6 @@ React Native tiene un Packager que empaqueta y sirve el código JS dependiendo d
 - `minify`: si es **true** el código va a ser minificado
 
 Las apps hechas con React Native aprovechan al Packager para brindar funcionalidades como **Live Reload** y **Hot Reloading**.
+
+
+FROM Andres Felipe Pinilla Meneses c.c. 1014.245.104
