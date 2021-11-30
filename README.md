@@ -1,4 +1,4 @@
-# React Native - Primer proyecto
+# React Native - Prueba Técnica Andres Felipe (3it.cl )
 
 [React Native](https://facebook.github.io/react-native) es un framework para hacer aplicaciones móviles nativas usando [React](https://facebook.github.io/react)
 
@@ -12,9 +12,16 @@ React Native tiene una detallada guía paso a paso que es muy útil para empezar
 
 ## Demo
 ### Paso 1 - Iniciando
-Asumiendo que ya instalaste todo lo mencionado antes, desde tu terminal corré
+Asumiendo que ya instalaste todo lo mencionado antes, desde tu terminal corré nos ubicamos en la carpeta del proyecto y descargarmos estas dependencias.
+
 ```
-react-native init MeetupBA
+npm i react-native or yarn install
+
+```
+Si eres usuario mac agregas esta dependencia
+```
+cd ios && pod install
+
 ```
 Este comando genera la estructura de carpetas del proyecto dentro de la carpeta **MeetupBA** e instala **react** y **react-native** como dependencias del proyecto desde npm.
 
