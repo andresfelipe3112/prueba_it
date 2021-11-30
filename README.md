@@ -23,7 +23,7 @@ Si eres usuario mac agregas esta dependencia
 cd ios && pod install
 
 ```
-Este comando genera la estructura de carpetas del proyecto dentro de la carpeta **MeetupBA** e instala **react** y **react-native** como dependencias del proyecto desde npm.
+Este comando genera la estructura de carpetas del proyecto dentro de la carpeta **prueba_it** e instala **react** y **react-native** como dependencias del proyecto desde npm.
 
 > **Nota:** dentro del proyecto vas a ver una carpeta para el proyecto de **Android** y otra para el de **iOS**.
 Ambos son proyectos **nativos** que podes importar y construir desde el Android Studio y XCode respectivamente.
@@ -41,32 +41,6 @@ Lo que el comando `react-native run-ios` (o `run-android`) hace son tres cosas:
 Tené en cuenta que la primera vez que corras este comando va a llevar mucho más tiempo que las siguientes corridas.
 
 
-### Paso 3 - Codeando
-Ahora que sabemos que el proyecto funciona podemos empezar a codear.
-
-[Habilitá Live Reload](#habilita-live-reload) y editá el archivo `index.ios.js` (o `index.android.js` para Android) para ver como la aplicación se recarga automáticamente.
-
-### Paso 4 - Importando un proyecto que ya existe
-Ya sabemos como crear, construir, instalar y editar un proyecto React Native desde cero.
-Ahora deberías intentar clonando y corriendo un proyecto existente.
-
-Primero clona este repo que tiene una app de ejemplo
-```
-git clone git@github.com:ReactJS-BA/meetup-2016-06-08.git MeetupReact
-```
-
-Después movete a la carpeta del proyecto e instalá las dependencias del proyecto
-```
-cd MeetupReact/example
-npm install
-```
-
-Ahora corré la app
-```
-react-native run-ios
-# or for Android
-react-native run-android
-```
 
 ## Notas
 #### Habilita Live Reload
