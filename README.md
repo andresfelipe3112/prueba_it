@@ -11,14 +11,14 @@ React Native tiene una detallada guía paso a paso que es muy útil para empezar
 **_Como consejo, empezá instalando sólo los [Pre-requisitos requeridos](https://facebook.github.io/react-native/docs/getting-started.html#required-prerequisites)_** para tu primer proyecto. Una vez que eso esté funcionando podés seguir con las _**[Instalaciones recomendadas](https://facebook.github.io/react-native/docs/getting-started.html#highly-recommended-installs)**_.
 
 ## Demo
-### Paso 1 - Iniciando
+### Paso 1 - Iniciando ( Android / ios )
 Asumiendo que ya instalaste todo lo mencionado antes, desde tu terminal corré nos ubicamos en la carpeta del proyecto y descargarmos estas dependencias.
 
 ```
 npm i react-native or yarn install
 
 ```
-Si eres usuario mac agregas esta dependencia
+Si eres usuario ios/ Mac tambien debes agregas esta dependencia
 ```
 cd ios && pod install
 
