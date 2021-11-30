@@ -1,7 +1,7 @@
 # React Native - Prueba Técnica Andres Felipe (3it.cl )
 
 
-<img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/4.png" width="200"><img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png" width="200"><img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/2.png" width="200"><img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/3.png" width="200">
+<img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/4.png" width="200"> <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png" width="200">  <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/2.png" width="200">  <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/3.png" width="200">
 
 
 [React Native](https://facebook.github.io/react-native) es un framework para hacer aplicaciones móviles nativas usando [React](https://facebook.github.io/react)
