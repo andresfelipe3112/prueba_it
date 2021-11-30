@@ -1,6 +1,6 @@
 # React Native - Prueba Técnica Andres Felipe (3it.cl )
 
-![alt text](https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png)
+![image](https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png  "Title" {width=40px height=400px})
 ![alt text](https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png)
 ![alt text](https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png)
 ![alt text](https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png)
