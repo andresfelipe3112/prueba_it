@@ -4,8 +4,7 @@
 <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/4.png" width="200"> <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/1.png" width="200">  <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/2.png" width="200">  <img src="https://github.com/andresfelipe3112/prueba_it/blob/main/src/assets/3.png" width="200">
 
 
-Puedes mirar el video en el siguien enlace para Android https://youtu.be/QG_rnxYpL8A 
-Puedes mirar el video en el siguien enlace para Ios https://youtu.be/MVqYCzrGY58
+Puedes mirar el video en el siguien enlace para Android https://youtu.be/QG_rnxYpL8A ---Para Ios https://youtu.be/MVqYCzrGY58
 
 
 
