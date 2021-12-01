@@ -1,5 +1,4 @@
 import React, { createContext } from "react";
-import { View } from "react-native";
 import { useApiData } from "../hooks/useApiData";
 import { useApiData_tipo_indicador } from "../hooks/useApiData_tipo_indicador";
 import { getApi, Bitcoin } from "../intefaces/interfaces"
@@ -13,8 +12,6 @@ export interface Props {
     dataTipo_indicador?: Bitcoin;
     getApTipo_indicador?: (() => void) | undefined | any
 }
-
-
 
 
 function ContextAPi({ children }: any) {

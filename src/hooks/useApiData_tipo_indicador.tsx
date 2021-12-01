@@ -1,5 +1,5 @@
 
-import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useState, useMemo } from 'react'
 import { indicatorData } from '../api/minIncadorApi'
 
 
@@ -14,15 +14,13 @@ export const useApiData_tipo_indicador = () => {
           setIsLoadingdataIndicator(false);
      }
 
-
-
      const memo = useMemo(() => {
           return {
                isLoadingdataIndicatorTipo_indicador,
                dataTipo_indicador,
                getApTipo_indicador
           }
-     }   , [isLoadingdataIndicatorTipo_indicador, dataTipo_indicador, getApTipo_indicador])
+     }, [isLoadingdataIndicatorTipo_indicador, dataTipo_indicador, getApTipo_indicador])
 
 
      return memo

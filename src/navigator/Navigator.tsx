@@ -5,9 +5,6 @@ import SpecificIndicators from '../screens/SpecificIndicators';
 import Stadistics from '../screens/Stadistics';
 
 
-
-
-
 const Stack = createStackNavigator();
 
 export const Navigator = () => {

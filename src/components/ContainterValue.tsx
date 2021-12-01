@@ -8,8 +8,8 @@ import { useNavigation } from '@react-navigation/native';
 const { height, width } = Dimensions.get("window")
 
 
-const ContainterValue =(props:any) => {
-  const { navigate }:any = useNavigation()
+const ContainterValue = (props: any) => {
+    const { navigate }: any = useNavigation()
     const {
         nombre,
         unidad_medida,
@@ -23,24 +23,24 @@ const ContainterValue =(props:any) => {
             <View
                 style={styles.containerText}
             >
-                <Text style={{color: "#B2ADC3" , fontSize:15}} > {nombre}</Text>
-                <Text style={{color: "gray" , fontSize:14, paddingLeft:5}} >{unidad_medida}</Text>
-            </View> 
+                <Text style={{ color: "#B2ADC3", fontSize: 15 }} > {nombre}</Text>
+                <Text style={{ color: "gray", fontSize: 14, paddingLeft: 5 }} >{unidad_medida}</Text>
+            </View>
             <View
-            style={styles.containerIcons}
+                style={styles.containerIcons}
             >
-                <Icon  
-                name="information-circle-outline" 
-                size={33} color={"#6B5888"} 
-                style={{marginHorizontal:10}}
-                onPress={()=>navigate("Stadistics",{codigo,unidad_medida,valor,fecha, nombre } )} 
+                <Icon
+                    name="information-circle-outline"
+                    size={33} color={"#6B5888"}
+                    style={{ marginHorizontal: 10 }}
+                    onPress={() => navigate("Stadistics", { codigo, unidad_medida, valor, fecha, nombre })}
                 />
-                <Icon  
-                name="chevron-forward-outline"
-                 size={25} 
-                 color={"#6B5888"} 
-                 onPress={()=>navigate("SpecificIndicators",{codigo} )}
-                 />
+                <Icon
+                    name="chevron-forward-outline"
+                    size={25}
+                    color={"#6B5888"}
+                    onPress={() => navigate("SpecificIndicators", { codigo })}
+                />
             </View>
         </View>
     )
@@ -55,27 +55,27 @@ const styles = StyleSheet.create({
         width: width,
         height: 80,
         padding: 10,
-        marginVertical:4,
-        backgroundColor:BACKGROUND_COLOR,
+        marginVertical: 4,
+        backgroundColor: BACKGROUND_COLOR,
         borderRadius: 15,
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        borderBottomWidth:2,
-        borderColor:PRIMARY_COLOR
+        borderBottomWidth: 2,
+        borderColor: PRIMARY_COLOR
     },
-    containerText:{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: "space-between",
-            height: "100%",
-            
+    containerText: {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: "space-between",
+        height: "100%",
+
     },
-    containerIcons:{
+    containerIcons: {
         display: 'flex',
         flexDirection: 'row',
-        width:width * 0.19,
+        width: width * 0.19,
         justifyContent: "flex-end",
         height: "100%",
         alignItems: "center",

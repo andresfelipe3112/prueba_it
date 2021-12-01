@@ -1,23 +1,21 @@
-import React, { useContext, useEffect, useLayoutEffect, useState } from 'react'
-import { View, StyleSheet, Dimensions, Text, SafeAreaView, ScrollView, FlatList, ActivityIndicator } from 'react-native'
+import React, { useContext, useEffect, useState } from 'react'
+import { View, StyleSheet, Dimensions, Text, SafeAreaView, ScrollView, ActivityIndicator } from 'react-native'
 import { DataContext, Props } from '../context/contextAPi'
-import { BACKGROUND_COLOR, PRIMARY_COLOR } from '../theme/colors'
+import { PRIMARY_COLOR } from '../theme/colors'
 import Icon from 'react-native-vector-icons/Ionicons';
 import { globalStyles, stylesText } from '../theme/appTheme';
-import ContainterValueType from '../components/ContainterValueType';
 
 import { Grid, LineChart, XAxis, YAxis } from 'react-native-svg-charts'
 
 
 
-const { height, width } = Dimensions.get("window")
-const screenWidth = Dimensions.get("window").width;
+const { width } = Dimensions.get("window")
+
 
 function Stadistics({ route, navigation }: any) {
 
     const [state, setstate] = useState<number[]>([])
     const [stateData, setstateData] = useState<string[] | undefined>()
-
 
     const axesSvg = { fontSize: 10, fill: 'white', Padingleft: 10, };
     const verticalContentInset = { top: 10, bottom: 10 }
@@ -46,7 +44,6 @@ function Stadistics({ route, navigation }: any) {
     useEffect(() => {
         getApTipo_indicador(codigo)
     }, [codigo, isLoadingdataIndicatorTipo_indicador])
-
 
     return (
         <SafeAreaView style={[{ flex: 1 }, globalStyles.container]}>
@@ -151,8 +148,6 @@ function Stadistics({ route, navigation }: any) {
             {isLoadingdataIndicatorTipo_indicador
                 || serie === undefined
                 && <ActivityIndicator size={40} style={globalStyles.loading} />}
-
-
         </SafeAreaView>
     )
 }

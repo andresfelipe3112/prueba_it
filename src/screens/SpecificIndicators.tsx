@@ -1,19 +1,18 @@
-import React, { useContext, useEffect, useLayoutEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { View, StyleSheet, Dimensions, Text, SafeAreaView, ScrollView, FlatList, ActivityIndicator } from 'react-native'
 import { DataContext, Props } from '../context/contextAPi'
-import { BACKGROUND_COLOR, PRIMARY_COLOR } from '../theme/colors'
+import { PRIMARY_COLOR } from '../theme/colors'
 import Icon from 'react-native-vector-icons/Ionicons';
 import { globalStyles, stylesText } from '../theme/appTheme';
 import ContainterValueType from '../components/ContainterValueType';
 
 
 
-const { height, width } = Dimensions.get("window")
+const { width } = Dimensions.get("window")
 
 function SpecificIndicators({ route, navigation }: any) {
 
     const { codigo } = route.params || {}
-
 
     const {
         dataTipo_indicador,
@@ -66,8 +65,8 @@ function SpecificIndicators({ route, navigation }: any) {
                 renderItem={(item: any) => <ContainterValueType data={item} />}
                 keyExtractor={(item: any) => item.fecha}
             />
-             {isLoadingdataIndicatorTipo_indicador || serie === undefined 
-             && <ActivityIndicator size={40} style={globalStyles.loading}/>}
+            {isLoadingdataIndicatorTipo_indicador || serie === undefined
+                && <ActivityIndicator size={40} style={globalStyles.loading} />}
 
         </SafeAreaView>
     )
